@@ -1,0 +1,7 @@
+6
+push A
+push B
+push C
+pop
+multipop 2
+push D

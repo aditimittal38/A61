@@ -1,0 +1,12 @@
+
+10
+Rice 100 500 1
+Medicine 50 400 0
+Water 200 600 1
+Blankets 150 450 0
+Tents 300 800 0
+Wheat 120 300 1 
+Sugar 80 250 1
+Oxygen 60 700 0 
+Milk 90 350 1 
+FirstAid 40 500 0

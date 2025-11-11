@@ -1,0 +1,21 @@
+20
+Temp 400
+Humidity 300
+Pressure 600
+Light 150
+Gas 120
+Motion 200
+Smoke 100
+Vibration 250
+Sound 350
+CO2 450
+pH 80
+Toxic 60
+Voltage 220
+Current 180
+Wind 140
+Rain 200
+GPS 90
+UV 70
+Dust 160
+Salinity 110
