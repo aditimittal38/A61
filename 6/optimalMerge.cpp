@@ -52,4 +52,7 @@ int main(){
 }
 
 
-
+// Time Complexity: O(n log n)
+// → Each merge operation extracts and inserts into the min-heap, which costs O(log n), and there are n merges overall.
+// Space Complexity: O(n)
+// → The min-heap stores all n file sizes at once.

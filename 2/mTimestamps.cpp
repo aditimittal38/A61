@@ -29,3 +29,5 @@ int main() {
 
     return 0;
 }
+//O(n)
+//O(1)

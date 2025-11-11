@@ -39,3 +39,5 @@ int main(){
         cout << "Element not found" << endl;
     }
 }
+//O(log n)
+//O(1)

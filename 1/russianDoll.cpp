@@ -69,3 +69,20 @@ int main() {
 
     return 0;
 }
+
+
+/*
+Time Complexity:
+
+Sorting: O(n log n)
+
+DP for LIS: O(n²)
+
+Max finding + reconstruction: O(n)
+
+Total: O(n²) (dominant term is DP)
+
+Space Complexity:
+
+dp[n] + tower[maxTower] + people[n] → O(n)
+*/

@@ -63,3 +63,6 @@ int main() {
 
     return 0;
 }
+
+// TC = O(m*v)
+// SC = O(v)

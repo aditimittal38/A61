@@ -125,3 +125,5 @@ int main(){
     return 0;
 }
 
+// Time Complexity: O(n log n) — due to sorting the supplies by value/weight ratio.
+// Space Complexity: O(n) — to store the list of supply items and their attributes.

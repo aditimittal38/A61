@@ -16,3 +16,6 @@ int main(){
     cout << "Number of valid points with integer coordinates: " << count << endl;
     return 0;
 }
+
+// O(s^2)
+//O(1)

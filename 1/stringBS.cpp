@@ -69,3 +69,26 @@ int main() {
 
     return 0;
 }
+
+
+/*
+		int n;
+    cout << "Enter number of elements in the array: ";
+    cin >> n;
+    cin.ignore(); // to handle newline after integer input
+
+    vector<string> arr(n);
+    cout << "Enter " << n << " strings (use empty line for \"\"):\n";
+    for (int i = 0; i < n; ++i) {
+        getline(cin, arr[i]); // allows empty strings
+    }
+
+    string target;
+    cout << "\nEnter string to search: ";
+    getline(cin, target);
+*/
+
+
+//Tine: O(log n) best and avg
+// Worst:O(n)
+// space: O(1)

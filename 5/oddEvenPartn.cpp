@@ -73,3 +73,6 @@ int main(){
     cout << "Maximum number of partitions that can be made: " << ptr << endl;
     return 0;
 }
+
+//T(n) = O(nlogn)
+//S(n) = O(n)

@@ -42,3 +42,10 @@ int main() {
 
     return 0;
 }
+
+
+// Time Complexity:
+// Worst Case (when resizing occurs): O(n)
+// Amortized per insertion: O(1)
+// Total for n insertions: O(n)
+// Space Complexity: O(n)

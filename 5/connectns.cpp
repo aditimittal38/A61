@@ -39,3 +39,9 @@ int main(){
     
     return 0;
 }
+
+// Time Complexity:
+// O(1) — All operations are simple arithmetic calculations (no loops or recursion).
+
+// Space Complexity:
+// O(1) — Only a few integer variables (A, B, maxConnections, minConnections, etc.) are used, independent of input size.

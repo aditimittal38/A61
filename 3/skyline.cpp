@@ -93,3 +93,7 @@ int main() {
         cout << point[0] << " " << point[1] << "\n";
     }
 }
+
+//T(n)=2T(n/2)+O(n)
+// T(n) = O(nlogn)
+// space = O(n)

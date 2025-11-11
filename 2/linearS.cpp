@@ -26,3 +26,6 @@ int main(){
     linear_search(arr, n, key);
 
 }
+
+//O(n)
+//O(1)

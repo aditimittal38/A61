@@ -55,4 +55,8 @@ int main(){
 }
 
 
+// Time Complexity: O(n log n)
+// → Each merge operation (using a min-heap) takes O(log n), and there are n elements total across all rounds.
 
+// Space Complexity: O(n)
+// → For storing all log sizes in the min-heap.

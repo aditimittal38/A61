@@ -88,3 +88,9 @@ int main() {
 
     return 0;
 }
+
+
+// Time Complexity:
+// Dijkstra’s algorithm per call: O(E log V)
+// Called once for each edge → O(E × (E log V)) = O(E² log V) in worst case
+// Space Complexity: O(V + E)

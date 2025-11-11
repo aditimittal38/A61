@@ -29,3 +29,6 @@ int main(){
 
 
 }
+
+//O(2^n)
+//O(n) recursion stack

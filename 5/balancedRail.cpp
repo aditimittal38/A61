@@ -87,6 +87,15 @@ int main() {
 }
 
 
+//O(n+E(rail) + E(roads)) for dfs where n is nodes, E is edges
+
+// Time Complexity:
+// O(q × (n + m))
+// → For each of the q operations, two DFS traversals (one for roads, one for railways) are performed over up to n nodes and m edges.
+
+// Space Complexity:
+// O(n + m)
+// → For storing adjacency lists of both graphs (railway and road) and component arrays.
 
 
 // class cityNetwork{

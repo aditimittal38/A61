@@ -63,3 +63,11 @@ int main(){
             
     return 0;
 }
+
+// Time Complexity:
+// O(N) per test case
+// → Each element is added and removed from the sliding window at most once, and all operations on the unordered_map are O(1) on average.
+
+// Space Complexity:
+// O(X) (or O(N) in the worst case)
+// → The frequency map stores counts of distinct elements within the current window, which can be up to all elements in the array in the worst case.

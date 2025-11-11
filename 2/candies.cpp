@@ -29,3 +29,5 @@ int main() {
     cin >> K;
     cout << "K-th candy is in box " << kthCandyBox(N, K) << endl;
 }
+//O(k)
+//O(1)

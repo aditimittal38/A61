@@ -69,3 +69,9 @@ int main() {
 
     return 0;
 }
+
+// Time Complexity:
+// Worst-case (single multipop): O(n)
+// Amortized (per operation): O(1)
+// Total for n operations: O(n)
+// Space Complexity: O(n)

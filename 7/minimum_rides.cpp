@@ -39,3 +39,6 @@ int main() {
     cout << "Minimum number of rides: " << dp[N-1].first << endl;
     return 0;
 }
+
+// TC = O(n*2^n)
+// SC = O(2^n)

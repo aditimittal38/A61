@@ -40,3 +40,7 @@ int main() {
     cout << "Minimum TSP cost: " << minCost << endl;
     return 0;
 }
+
+
+// Time Complexity	O(n!)
+// Space Complexity	O(n²) (due to distance matrix)

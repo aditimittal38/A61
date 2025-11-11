@@ -34,3 +34,6 @@ int main() {
     bellmanFord(V, edges, 0);
     return 0;
 }
+
+// TC = O(v*e)
+// SC = O(v*e)

@@ -25,3 +25,6 @@ int main() {
     cout << "Maximum profit: " << dp[n] << endl;
     return 0;
 }
+
+// TC = O(n^2)
+// SC = O(n)

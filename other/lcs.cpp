@@ -22,3 +22,6 @@ int main() {
     cout << "Length of LCS: " << longestCommonSubsequence(a, b) << endl;
     return 0;
 }
+
+// TC = O(m*n)
+// SC = O(n*m)

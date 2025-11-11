@@ -45,3 +45,6 @@ int main(){
     cout << "Number of luggages loaded: " << num_loaded << endl;
     return 0;
 }
+
+// Time Complexity: O(n log n) — due to sorting the luggage weights.
+// Space Complexity: O(n) — to store the list of luggage weights.

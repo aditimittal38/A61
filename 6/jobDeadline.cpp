@@ -72,3 +72,11 @@ int main(){
     
     return 0;
 }
+
+
+// Time Complexity: O(n log n + n × m)
+// → Sorting jobs by profit takes O(n log n),
+// → Assigning jobs to available slots (up to m = number of slots) takes O(n × m) in the worst case.
+
+// Space Complexity: O(n + m)
+// → For storing jobs and the slot array.

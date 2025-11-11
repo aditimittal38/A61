@@ -35,3 +35,6 @@ int main() {
 
 
 //https://www.youtube.com/watch?v=Xq3hlMvhrkE
+
+// TC = O(n^2)
+// SC = O(n)

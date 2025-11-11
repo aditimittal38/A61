@@ -1,40 +1,57 @@
 #include <iostream>
 #include <vector>
-#include <string>
 #include <map>
 #include <algorithm>
-
 using namespace std;
 
-vector<string> sort_anagrams(vector<string>& arr) {
-    map<string, vector<string>> anagram_groups;
+// Function to group anagrams in place
+void groupAnagrams(vector<string>& words) {
+    map<string, vector<string>> anagramMap;
 
-    for (int i = 0; i < arr.size(); i++) {
-        string sorted_s = arr[i];
-        sort(sorted_s.begin(), sorted_s.end());
-        anagram_groups[sorted_s].push_back(arr[i]);
+    // Step 1: Group words by their sorted key
+    for (auto& word : words) {
+        string key = word;
+        sort(key.begin(), key.end());   // e.g. "bat" → "abt"
+        anagramMap[key].push_back(word);
     }
 
-    vector<string> result;
-    for (const auto& pair : anagram_groups) {
-        for (const string& s : pair.second) {
-            result.push_back(s);
+    // Step 2: Overwrite original array so that anagrams are adjacent
+    int index = 0;
+    for (auto& group : anagramMap) {
+        for (auto& w : group.second) {
+            words[index++] = w;
         }
     }
-
-    return result;
 }
 
 int main() {
-    vector<string> words = {"listen", "silent", "hello", "world", "ehllo", "drwol", "apple", "pleap"};
+    int n;
+    cout << "Enter number of strings: ";
+    cin >> n;
 
-    vector<string> sorted_words = sort_anagrams(words);
-    cout << "Array after sorting anagrams:\n";
-    for (const string& word : sorted_words) {
-        cout << word << " ";
-    }
+    vector<string> words(n);
+    cout << "Enter " << n << " strings:\n";
+    for (int i = 0; i < n; ++i)
+        cin >> words[i];
+    // vector<string> words = {"listen", "silent", "hello", "world", "ehllo", "drwol", "apple", "pleap"};
+
+    // Function modifies the original array directly
+    groupAnagrams(words);
+
+    cout << "\nAnagrams grouped together:\n";
+    for (auto& w : words)
+        cout << w << " ";
     cout << endl;
+
+    return 0;
 }
+
+// can use 
+//#include <cctype> 
+//tolower(char) for case senstivity
+
+//time: O(N * Klogk)
+//space: O(N*K)
 
 
 

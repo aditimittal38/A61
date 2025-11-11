@@ -46,3 +46,6 @@ int main() {
 
     return 0;
 }
+
+//Time: O(m+n)
+// Space: O(1)

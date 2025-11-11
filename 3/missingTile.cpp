@@ -75,3 +75,7 @@ int main(){
         cout << endl;
     }
 }
+
+// T(n)=4T(n/2)+O(1)
+// O(n^2)
+// space O(n^2) for board

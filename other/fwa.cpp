@@ -33,3 +33,6 @@ int main() {
     floydWarshall(n, graph);
     return 0;
 }
+
+// TC = O(n*3)
+// SC = O(n*2)

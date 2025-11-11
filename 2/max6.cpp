@@ -35,3 +35,6 @@ int main(){
     cout<<"Rating of employee = "<< rating<<endl;
 
 }
+
+//O(N)
+//O(1)

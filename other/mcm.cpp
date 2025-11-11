@@ -24,3 +24,6 @@ int main() {
     cout << "Minimum multiplication cost: " << matrixChainMultiplication(dims) << endl;
     return 0;
 }
+
+// TC = O(n^3)
+// SC = O(n^2)

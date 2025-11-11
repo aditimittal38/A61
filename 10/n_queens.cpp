@@ -53,3 +53,7 @@ int main() {
         cout << endl;
     }
 }
+
+
+// TC = O(n!*n)
+// SC = O(n^2)

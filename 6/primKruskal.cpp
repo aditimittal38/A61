@@ -121,3 +121,6 @@ int main() {
 
     return 0;
 }
+
+// Kruskal TC=O(E·V)	SC=O(V + E)
+// Prim	TC=O(E log V)	SC=O(V + E)

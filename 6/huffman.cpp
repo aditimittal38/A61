@@ -87,3 +87,6 @@ int main() {
 
     return 0;
 }
+
+// Time Complexity: O(n log n) — building the Huffman tree involves repeatedly extracting and inserting nodes into a min-heap.
+// Space Complexity: O(n) — for storing the tree nodes, heap, and code mappings.

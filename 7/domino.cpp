@@ -39,3 +39,6 @@ int main() {
     cout << dp[0] << endl; // max score for whole grid
     return 0;
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(N)
